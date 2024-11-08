@@ -128,6 +128,8 @@ export const getProxies = async () => {
       udp: false,
       xudp: false,
       tfo: false,
+      mptcp: false,
+      smux: false,
       history: [],
     };
   };

@@ -129,6 +129,12 @@ export const ProxyItem = (props: Props) => {
                 <TypeBox component="span">XUDP</TypeBox>
               )}
               {showType && proxy.tfo && <TypeBox component="span">TFO</TypeBox>}
+              {showType && proxy.mptcp && (
+                <TypeBox component="span">MPTCP</TypeBox>
+              )}
+              {showType && proxy.smux && (
+                <TypeBox component="span">SMUX</TypeBox>
+              )}
             </>
           }
         />
